@@ -42,9 +42,9 @@ THEN the saved events persist
 
 ## Hosting
 
-| Project                            | Day-Planner URL                                         |
+| Project                            | Day-Planner URL                                       |
 |------------------------------------|-------------------------------------------------------|
-| Day-Planner                        | <>          |
+| Day-Planner                        | <https://allan-ngwenya.github.io/Day-Planner/>        |
 
 
 ## Contributers
