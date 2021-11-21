@@ -60,3 +60,15 @@ textarea {
   background-color: #88db3b;
   color: white;
 }
+
+.saveBtn {
+  border: 2px solid #000000;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #0040ff;
+  color: rgb(0, 0, 0);
+}
+
+.saveBtn i:hover {
+  font-size: 30px;
+}
