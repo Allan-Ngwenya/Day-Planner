@@ -1,13 +1,14 @@
+/* defined consistent styling for the full page */
 body {
   Font-Family: 'Courier New', Courier, monospace, sans-serif;
   line-height: 2;
   font-size: 25px;
 }
-
+/* consistent font has been used same as the one in Body */
 h1 {
   font-family: 'Courier New', Courier, monospace, sans-serif;
 }
-
+/* Background is trnsparent to allow text visual */
 textarea {
   background: transparent;
   border: none;
@@ -16,7 +17,7 @@ textarea {
   border-left: 1px solid #88898C;
   padding: 10px;
 }
-
+/* Styling for Jumbatron */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -26,12 +27,11 @@ textarea {
 }
 
 .description {
-  white-space: pre-wrap;
 }
 
 .time-block {
   text-align: center;
-  border-radius: 15px;
+  border-radius: 20px;
 }
 
 .row {
@@ -39,7 +39,7 @@ textarea {
   height: 80px;
   border-top: 1px solid white;;
 }
-
+/* Classes for the displayed current dat and time */
 .hour {
   background-color: #ffffff;
   color: #000000;
@@ -47,16 +47,16 @@ textarea {
 }
 
 .past {
-  background-color: #F2EDDC;
+  background-color: #b14a4a;
   color: white;
 }
 
 .present {
-  background-color: #D96A29;
+  background-color: #4400ff;
   color: white;
 }
 
 .future {
-  background-color: #69AFBF;
+  background-color: #88db3b;
   color: white;
 }
