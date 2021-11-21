@@ -1,5 +1,6 @@
 var saveBtn = $(".saveBtn");
 
+//Display current date and time within the jumbatron class created
 $("#currentDayTime").text(moment().format('dddd MMMM Do YYYY'));
 
 function timeBlockColor() {
@@ -17,7 +18,7 @@ function timeBlockColor() {
 		}
 	})
 };
-
+//save button to allow you to save the input for that date/time
 saveBtn.on("click", function () {
 	var time = $(this).siblings(".hour").text();
 	var plan = $(this).siblings(".plan").val();
